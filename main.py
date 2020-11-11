@@ -32,7 +32,7 @@ generate_key()
 myKey = load_key()
 
 root = tkinter.Tk()
-root.geometry('650x800')
+root.geometry('650x550')
 root.title('Encrypt - CryptoText')
 # root.iconbitmap('/home/morteza/python/Class/Project/cryptoText/icon.ico')
 # root.tk.call('wm', 'iconphoto', root._w, tkinter.PhotoImage(file='/home/morteza/python/Class/Project/cryptoText/icon.png'))
