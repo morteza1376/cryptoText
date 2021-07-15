@@ -36,7 +36,7 @@ root.geometry('650x550')
 root.title('Encrypt - CryptoText')
 # root.iconbitmap('/home/morteza/python/Class/Project/cryptoText/icon.ico')
 # root.tk.call('wm', 'iconphoto', root._w, tkinter.PhotoImage(file='/home/morteza/python/Class/Project/cryptoText/icon.png'))
-root.iconphoto(False, tkinter.PhotoImage(file='/home/morteza/python/Class/Project/cryptoText/icon.png'))
+root.iconphoto(False, tkinter.PhotoImage(file='icon.png'))
 
 def encrypt_tk():
     text_data = user_text.get('0.0', tkinter.END).strip()
@@ -63,7 +63,7 @@ def decrypt_tk():
 
 
 
-image = tkinter.PhotoImage(file='/home/morteza/python/Class/Project/cryptoText/banner.png')
+image = tkinter.PhotoImage(file='banner.png')
 tkinter.Label(root, image=image).pack()
 
 
